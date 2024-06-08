@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
 header{         
     text-align: center;        
 }
@@ -12,20 +18,68 @@ nav {
     background-color:goldenrod;
     font-size: 1rem;
     line-height: 1rem;
-    padding: 1%;
+    padding: 2%;
     position: relative;
-    bottom: 0px;
-    
+    bottom: 0px;  
 }
 nav ul {
     list-style: none;
-    display: flex;
-
-    
+    display: flex;    
   }
-  nav ul li {
+main {
+    padding: 2em 1em;
+    margin: 0 auto;
+}
+h2, h1, h3, h4{
+  text-align: center;
+}
+footer {
+    background-color: goldenrod;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+ul{ 
+    list-style: none;
+  }
+nav ul li {
     
     margin-left: 20%;
     display:list-item;
     
   }
+general{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+} 
+.contenido {
+  flex: 25%; 
+
+  border: 1px solid #000000;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+
+}
+.principios {
+  display: grid;
+  grid-template-rows: 2fr, 2fr;
+  justify-items: center;
+  gap: 2rem;
+
+}
+.principio {
+
+  border: 1px solid #000000;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
