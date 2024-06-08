@@ -32,6 +32,7 @@ main {
 }
 h2, h1, h3, h4{
   text-align: center;
+  margin: 1rem;
 }
 footer {
     background-color: goldenrod;
@@ -62,14 +63,18 @@ general{
   border-radius: 5px;
   text-align: center;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
 
 }
+
 .principios {
   display: grid;
-  grid-template-rows: 2fr, 2fr;
-  justify-items: center;
-  gap: 2rem;
+  grid-template-columns: auto auto auto auto;
+  width: 80%;
+  margin: 0 auto;
 
+  padding: 2rem;
+ 
 }
 .principio {
 
@@ -77,6 +82,7 @@ general{
   padding: 1rem;
   border-radius: 5px;
   text-align: center;
+  margin: 2rem;
 }
 .video {
   display: flex;
