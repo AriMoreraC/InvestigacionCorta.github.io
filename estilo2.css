@@ -29,6 +29,8 @@ nav ul {
 main {
     padding: 2em 1em;
     margin: 0 auto;
+    color: #fff;
+    background-color: #000000;
 }
 h2, h1, h3, h4{
   text-align: center;
@@ -58,7 +60,7 @@ general{
 .contenido {
   flex: 25%; 
 
-  border: 1px solid #000000;
+  border: 1px solid goldenrod;
   padding: 1rem;
   border-radius: 5px;
   text-align: center;
@@ -78,7 +80,7 @@ general{
 }
 .principio {
 
-  border: 1px solid #000000;
+  border: 1px solid goldenrod;;
   padding: 1rem;
   border-radius: 5px;
   text-align: center;
