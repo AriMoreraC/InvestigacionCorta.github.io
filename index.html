@@ -23,7 +23,7 @@
         <H1>Usabilidad Web</H1>
 
     </header>
-    <hr>
+   
     <nav>
         <ul>
             <li><a href="./index.html">Usabilidad</a></li>
@@ -33,12 +33,11 @@
     </nav>
     
         <h2>Navegador de la Pagina</h2>
-
-        <ul>        
+        <div id="navegador">
+        <ul id="nav-pag">        
             <li><a href="#Que es">¿Que es?</a></li>
             <li><a href="#Importancia">Importancia</a></li>
             <li><a href="#Principios">Pincipios de la Usabilidad Web</a></li>
-            <ol>
                 <li><a href="#Visibilidad">Visibilidad del estado del sistema</a></li>
                 <li><a href="#Relacion">Relación entre el sistema y el mundo real</a></li>
                 <li><a href="#Control">Control y libertad del usuario</a></li>
@@ -49,14 +48,13 @@
                 <li><a href="#Diseño">Diseño estético y minimalista</a></li>
                 <li><a href="#Ayudar">Ayudar a los usuarios a reconocer, diagnosticar y corregir los errores</a></li>
                 <li><a href="#Documentacion">Ayuda y documentación</a></li>
-            </ol>
             <li><a href="#Fuentes">Fuentes y Referencias</a></li>
         </ul>
-    
-    <hr>
+    </div>
+
     <main>
-    
-        <section id ="Que es">
+    <section class="principal">
+        <section id ="Quees">
             <article>
                 <h2>¿Que es?</h2>
                 <p>
@@ -67,7 +65,7 @@
                 </p>
             </article>
         </section>
-        <hr>
+
         <section id = "Importancia">
             <article>
                 <h2>Importancia</h2>
@@ -79,19 +77,18 @@
                 </p>
             </article>
         </section>
-        <hr>
+        </section>
         <section id="video">
             <h1>Video de ayuda</h1>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Y7nLeu4cY38?si=_9TSHzqcPxx-p5J2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
-        <hr>
-        <section id="Pincipios">
+        
+        <section id="pincipios">
             <article>
                 <h2>Pincipios de la Usabilidad Web</h2>
                 <h3><b>Jacob Nielsen y sus muy conocidos 10 principios de usabilidad web</b></h3>
-                <ol>
-                   <li>
-                    <section id="Visibilidad">
+
+                    <section class="principio" id="Visibilidad">
                         <article>
                             <h4>Visibilidad del estado del sistema</h4>
                             <p>
@@ -104,10 +101,8 @@
                             <img src="https://parzibyte.me/blog/wp-content/uploads/2019/11/Mensaje-enviado-correctamente.jpg" alt="Imagen de enviado">
                         </article>
                     </section>
-                   </li>
-                   <hr>
-                   <li>
-                    <section id="Relacion">
+
+                    <section class="principio" id="Relacion">
                         <article>
                             <h4>Relación entre el sistema y el mundo real</h4>
                             <p>
@@ -122,11 +117,8 @@
                            
                         </article>
                     </section>
-                   </li> 
-                <hr>
 
-                   <li>
-                    <section id="Control">
+                    <section class="principio" id="Control">
                         <article>
                             <h4>Control y libertad del usuario</h4>
 
@@ -139,18 +131,13 @@
                             <h5>Ejemplo:</h5>
                             <p>
                                 Botón de editar, permite que el usuario haga los cambios que desee.
-
                         </article>
                     </section>
-                   </li> 
-                   <hr>
 
-
-                <li>
-                    <section id="Consistencia">
+                    <section class="principio" id="Consistencia">
                         <article>
                             <h4>Consistencia y estándares</h4>
-                       
+         
                             <p>
                                 Como se sabe cuando un icono que se suele ver en varias webs o en varias aplicaciones, 
                                 las personas suelen verlo como lo normal que representa siempre los mismo.
@@ -162,11 +149,8 @@
                             </p>
                         </article>
                     </section>
-                   </li> 
-                   <hr>
 
-                   <li>
-                    <section id="Prevencion">
+                    <section class="principio" id="Prevencion">
                         <article>
                             <h4>Prevención de errores</h4>
                             <p>
@@ -180,11 +164,8 @@
                             </p>
                         </article>
                     </section>
-                   </li> 
-                   <hr>
 
-                   <li>
-                    <section id="Reconocer">
+                    <section class="principio" id="Reconocer">
                         <article>
                             <h4>Reconocer antes que recordar</h4>
                             <p>
@@ -197,11 +178,8 @@
                             </p>
                         </article>
                     </section>
-                   </li> 
-                   <hr>
 
-                   <li>
-                    <section id="Flexibilidad">
+                    <section class="principio" id="Flexibilidad">
                         <article>
                             <h4>Flexibilidad y eficiencia de uso</h4>
                             <p>
@@ -215,11 +193,8 @@
                             </p>
                         </article>
                     </section>
-                   </li> 
-                   <hr>
 
-                   <li>
-                    <section id="Diseño">
+                    <section class="principio" id="Diseño">
                         <article>
                             <h4>Diseño estético y minimalista</h4>
                             <p>
@@ -233,11 +208,8 @@
                             </p>
                         </article>
                     </section>
-                   </li> 
-                   <hr>
 
-                   <li>
-                    <section id="Ayudar">
+                    <section class="principio" id="Ayudar">
                         <article>
                             <h4>Ayudar a los usuarios a reconocer, diagnosticar y corregir los errores</h4>
                             <p>
@@ -249,11 +221,8 @@
                             </p>
                         </article>
                     </section>
-                   </li> 
-                   <hr>
-
-                   <li>
-                    <section id="Documentacion">
+ 
+                    <section class="principio" id="Documentacion">
                         <article>
                             <h4>Ayuda y documentación</h4>
                             <p>
@@ -265,11 +234,7 @@
                             </p>
                         </article>
                     </section>
-                   </li> 
-                   <hr>
 
-
-                 </ol>
             </article>
         </section>
 
@@ -283,13 +248,10 @@
         <a href="https://repository.unab.edu.co/bitstream/handle/20.500.12749/18701/2021_Tesis_Hernandez_Ruiz_Diana.pdf?sequence=1&isAllowed=y" target="_blank">
             APLICACIÓN DE PRUEBAS DE USABILIDAD A UN PROTOTIPO FUNCIONAL CON BASE EN LOS CRITERIOS DE USABILIDAD
         </a>
-
-    
         <h4>Fuente 2: </h4>
         <a href="https://ocw.unican.es/pluginfile.php/1682/course/section/1190/Tema%208.%20Usabilidad%20Web.pdf" target="_blank">
             Tema 8: Usabilidad Web
         </a>
-    
 
         <h4>Referencias</h4>
         Arenzana, D. (2022). Principios de usabilidad web de Jacob Nielsen y el diseño UX. Obtenido de 
